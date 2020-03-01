@@ -1,0 +1,111 @@
+body
+{
+
+background-image:url("https://lh3.googleusercontent.com/proxy/hoMqxHlcqSOFHjtHVywGd8TfZjpF5XNmO0cXI_aBZO-gsEZc4yMp-seht0ZS1BoeZxA6p85QYuKfV8n4ktGlww8F6TAC01bEXzkERmTFeA");
+background-repeat: repeat;
+background-size: cover;
+overflow-x: hidden;
+
+}
+
+
+.container{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  padding: 20px;
+}
+
+header{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.header-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 30px;
+  background: linear-gradient(to bottom, rgba(162, 174, 250,0.7), rgba(162, 235, 250,0.4));
+  box-shadow: 10px 20px 15px rgba(162, 250, 247,0.4);
+  border-radius: 10px;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+}
+.Home{
+  float: left;
+}
+.header-container .contents{
+  float: right;
+}
+.header-container ul{
+  list-style: none;
+  float: right;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.header-container ul li{
+  margin: 0 20px;
+  padding: 0 10px;
+  font-family: 'Work Sans', san-serif;
+  text-align: center;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  min-width: 10%;
+  max-width: 20%;
+  margin: 75px 30px;
+  text-align: center;
+  padding: 20px;
+  border-style:ridge;
+  border-color:grey;
+  border-width:10px;
+  border-radius:15px 15px;
+  box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+  transition: 0.5s;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  border-radius: 10px;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #000;
+  transition: 0.5s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+  color: #ffbdff
+}

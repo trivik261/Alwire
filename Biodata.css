@@ -1,0 +1,108 @@
+#head{
+  margin-top: -20px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #334455;
+  padding: 100px 15px 100px 15px;
+  color: white; 
+}
+
+body{
+  background-image: url(https://wallpaperhd.wiki/wp-content/uploads/hd-backgrounds-websites-350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#menuitems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 3px 0px 0px;
+  overflow: hidden;
+  /*background-image: linear-gradient(to bottom,rgb(255,255,255),rgb(250,188,2));*/
+  margin-left: -10px;
+  margin-right: -10px;
+  color: white;
+}
+
+.men {
+  float: left;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(158, 156, 147,0.1));
+  border-radius: 20px;
+}
+
+#search {
+  float: left;
+  border: none;
+  /*margin-top: 20px;
+  margin-right: 16px;*/
+  font-size: 17px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+::placeholder{
+  color: black;
+}
+
+#img{
+  float: left;
+  border: 10px double black;
+  border-radius: 10px;
+}
+
+#text{
+  float: left;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+#name{
+  border-bottom: 2px solid black;
+  padding-right: 800px;
+  padding-bottom: 5px;
+  font-size: 40px;
+  color: white;
+}
+
+#desig{
+  padding-top: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.list{
+  list-style-type: none;
+  color: white;
+}
+
+.info{
+   background-color: rgba(0,0,0,.6);
+}
+
+.heading{
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.content{
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
