@@ -1,42 +1,41 @@
 body
 {
 
-background-image:url("https://lh3.googleusercontent.com/proxy/hoMqxHlcqSOFHjtHVywGd8TfZjpF5XNmO0cXI_aBZO-gsEZc4yMp-seht0ZS1BoeZxA6p85QYuKfV8n4ktGlww8F6TAC01bEXzkERmTFeA");
-background-repeat: repeat;
-background-size: cover;
+  background-image: url(https://wallpaperhd.wiki/wp-content/uploads/hd-backgrounds-websites-350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 overflow-x: hidden;
-
+font-family: 'Work Sans', san-serif;
 }
 
-
-.container{
-  display: flex;
+.grid{
+  display: grid;
   margin-top: 100px;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  width: 95%;
-  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 
 header{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  margin-top: -20px;
   width: 100%;
 }
 .header-container{
   display: flex;
   justify-content: center;
-  width: 100%;
-  padding: 0 30px;
-  background: linear-gradient(to bottom, rgba(162, 174, 250,0.7), rgba(162, 235, 250,0.4));
-  box-shadow: 10px 20px 15px rgba(162, 250, 247,0.4);
+  width: 1445px;
+  padding: 20px 30px;
+  padding-top:0px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.002));
+  box-shadow: 10px 0px 15px rgba(162, 235, 250,0.000001);
   border-radius: 10px;
   align-content: center;
   align-items: center;
   position: absolute;
-  top: 20px;
+  
 }
 .Home{
   float: left;
@@ -45,6 +44,7 @@ header{
   float: right;
 }
 .header-container ul{
+  padding-top: 3px;
   list-style: none;
   float: right;
   text-align: center;
@@ -52,20 +52,20 @@ header{
   flex-direction: row;
 }
 .header-container ul li{
-  margin: 0 20px;
-  padding: 0 10px;
+  margin: 0 30px;
+  padding: 0 40px;
   font-family: 'Work Sans', san-serif;
   text-align: center;
 }
 
-
 .card {
+  background-color: rgba(240, 255, 255,0.8);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  min-width: 10%;
-  max-width: 20%;
+  min-width: 60%;
+  max-width: 60%;
   margin: 75px 30px;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   border-style:ridge;
   border-color:grey;
   border-width:10px;
@@ -74,9 +74,14 @@ header{
   transition: 0.5s;
 }
 
+.cardin{
+    border-image-source: url(border.png);
+  border-image-outset: 10px;
+}
+
 .title {
-  color: grey;
-  font-size: 18px;
+  color: #424242;
+  font-size: 20px;
 }
 
 button {
@@ -88,7 +93,6 @@ button {
   border-radius: 10px;
   background-color: #000;
   text-align: center;
-  cursor: pointer;
   width: 100%;
   font-size: 18px;
   transition: 0.5s;
@@ -96,16 +100,65 @@ button {
 
 a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 25px;
   color: #000;
   transition: 0.5s;
 }
+
+y {
+  text-decoration: none;
+  font-size: 22px;
+  color: #c9c9c9;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+c {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
 .card:hover{
   transform: scale(1.05);
 }
 
 button:hover, a:hover {
-  opacity: 0.7;
+  opacity: 0.95;
   transform: scale(1.1);
-  color: #ffbdff
+  color: #0437c4
+}
+
+button:hover, y:hover {
+  opacity: 0.95;
+  transform: scale(1.1);
+  color: #000;
+}
+
+
+button:hover, c:hover {
+  opacity: 0.95;
+  transform: scale(1.1);
+  color: #4877f7  
+}
+
+w{
+  font-size: 20px;
+}
+
+h3{
+  margin-left: 332px;
+  margin-top: -120px;
+  margin-bottom: 80px;
+  color: #c9c9c9;
+}
+
+h2{
+font-family: 'Sacramento', cursive;
+font-size: 100px;
+font-weight: bold;
+margin-top: 0;
+padding-top: 20px;
+color: #c9c9c9;
 }

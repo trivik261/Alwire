@@ -9,11 +9,32 @@
   color: white; 
 }
 
+h3{
+  margin-left: 332px;
+  margin-top: -105px;
+  margin-bottom: 80px;
+  color: #c9c9c9
+}
+
+h1{
+font-family: 'Sacramento', cursive;
+font-size: 100px;
+font-weight: bold;
+margin-top: -70px;
+color: #c9c9c9;
+}
+
 body{
   background-image: url(https://wallpaperhd.wiki/wp-content/uploads/hd-backgrounds-websites-350851-download-free-website-background-1920x1080-for-mobile-hd.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: 'Work Sans', san-serif;
+}
+
+.menu{
+  border-bottom: 1px solid lightgrey;
+  margin-top: -20px;
 }
 
 #menuitems {
@@ -34,34 +55,60 @@ body{
 
 li a {
   display: block;
-  color: white;
+  color: #c9c9c9;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: .25s;
 }
 
 li a:hover {
-  background-image: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(158, 156, 147,0.1));
-  border-radius: 20px;
+  color: #000;
+  opacity: 10;
+  transform: scale(1.1);
 }
 
 #search {
+  font-weight: normal ;
+  font-style: italic;
   float: left;
   border: none;
-  /*margin-top: 20px;
-  margin-right: 16px;*/
+  border-radius: 25px;
+  padding: 8px;
+  margin-right: 12px;
+  margin-top: 8px;
   font-size: 17px;
   vertical-align: middle;
   display: table-cell;
+  color: #ffffff;
+  background-color: rgba(250,250,250,0.22);
+  margin-bottom: -33px;
 }
 
 ::placeholder{
-  color: black;
+  color: #1a1a1c;
 }
+
+button{
+  background-color: rgba(0,0,0,0);
+  float: right;
+  
+  border:none;
+  margin-right: -208px;
+  margin-top: 17px;
+  color: #252526;
+ /* margin-left: 860px;
+  margin-top: 7px;
+  transition: 0.75s;*/
+  border-radius: 20px;
+  transition: 0.5s;
+  transform: scale(1.5); 
+}
+
 
 #img{
   float: left;
-  border: 10px double black;
+  border: 8px double black;
   border-radius: 10px;
 }
 
@@ -69,20 +116,31 @@ li a:hover {
   float: left;
   list-style-type: none;
   list-style-position: outside;
+  border-radius: 25px;
+  background: linear-gradient(to right, rgba(0,0,0,0.25), rgba(0,0,0,0.0002));
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-left: 30px;
 }
 
+
 #name{
-  border-bottom: 2px solid black;
-  padding-right: 800px;
+  border-bottom: 1.75px solid #242424;  
+  padding-right: 875px;
   padding-bottom: 5px;
-  font-size: 40px;
-  color: white;
+  font-size: 60px;
+  color: #d6d6d6;
+  font-family: 'Allura', cursive;
+  font-weight: bold;
 }
 
 #desig{
   padding-top: 15px;
-  font-size: 25px;
-  color: white;
+  font-size: 30px;
+  color: #c9c9c9;
+  font-weight: bold;
 }
 
 .list{
@@ -91,14 +149,19 @@ li a:hover {
 }
 
 .info{
-   background-color: rgba(0,0,0,.6);
+   
+   border-radius: 30px;
+   padding: 10px 30px 10px 30px;
+   background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.02));
 }
 
 .heading{
-  border-bottom: 1px solid black;
-  font-size: 30px;
+  border-bottom: 1px solid grey;
+  font-size: 40px;
   padding-bottom: 5px;
+  padding-top: 20px;
   color: white;
+  font-family: 'Allura', cursive;
 }
 
 .content{
