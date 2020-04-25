@@ -68,7 +68,7 @@ a:hover {
 body{ 
 	background-image: url(https://rdcnewscdn.realtor.com/wp-content/uploads/2018/03/home-maintenance-inspection.jpg);
 	background-repeat: no-repeat;
-	background-size: -50px cover;
+	background-size: cover;
   font-family: 'Work Sans', san-serif;
   }
 
