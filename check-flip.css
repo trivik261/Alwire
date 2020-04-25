@@ -12,8 +12,9 @@ font-family: 'Work Sans', san-serif;
 .grid{
   display: grid;
   margin-top: 100px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit,minmax(400px,auto));
   grid-gap: 1em;
+  justify-items: center;
 }
 
 header{
@@ -26,14 +27,12 @@ header{
 .header-container{
   display: flex;
   justify-content: center;
-  width: 1445px;
-  padding: 20px 30px;
+  width: calc(100% - 20px);
+  padding: 20px 0px;
   padding-top:0px;
   background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.002));
   box-shadow: 10px 0px 15px rgba(162, 235, 250,0.000001);
   border-radius: 10px;
-  align-content: center;
-  align-items: center;
   position: absolute;
   
 }
