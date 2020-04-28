@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services Form</title>
+	<script type="text/javascript">
+		var submitted=false;
+	</script>
+</head>
+	<link rel="stylesheet" type="text/css" href="formin.css">
+	<link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Lemonada|Work+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Rock+Salt&family=Sacramento&family=Tangerine&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+	<div id="name">
+		<h1>Alwire</h1>
+		<h2>(Always Within Reach)</h2>
+	</div>
+	<div class="menu">
+	<ul id="menuitems">
+		<div id="listitems">
+		<li class="men"><a href="index.html"><b>HOME</b></a></li>
+		<li class="men"><a href="form.html"><b>SERVICES</b></a></li>
+		<li class="men"><a href="About_us.html"><b>ABOUT US</b></a></li>
+		<li class="men"><a href=""><b>CONTACTS</b></a></li>
+		</div>
+		<form action="https://www.google.com" target="_blank" method="get">
+		<li style="float:right"><input id="search" type="text" placeholder="Search">
+		<li class=button>
+		<button type="submit"><i class="fa fa-search"></i></button>
+	</li></li></form>
+	</ul>
+	</div>
+	</div>
+	<div class="reg">
+		<iframe name="ifr" id="ifr" style="display: none;" onload="if(submitted) {window.location='ty.html'}"></iframe>
+		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdE3YFAqhYovA2ToCIdg0LrYgn1aQr9_GK3Vp8N3dySUqGgkg/formResponse" target="ifr" method="POST" onsubmit="submitted=true">
+		<input type="text" placeholder="Name" required="" style="color: #1b1b1b; text-transform: capitalize;" name="entry.774667370">
+		<input type="Email" placeholder="Email id" required="" style="color: #1b1b1b;" name="entry.587600091">
+		<input type="tel" placeholder="Contact" required="" style="color: #1b1b1b;" pattern="[0-9]{10}" name="entry.1865095023">
+		<!input type="text" placeholder="Address" style="color: #1b1b1b;" name="">
+		<textarea placeholder="Address" required="" rows="2" cols="15" style="text-transform: capitalize;" name="entry.1102419118"></textarea>
+		<input type="text" placeholder="Landmark" style="color: #1b1b1b;" name="entry.215911304">
+		<input type="text" placeholder="City" required="" style="color: #1b1b1b;" name="entry.177725593">
+		<input type="tel" placeholder="PIN CODE" required="" style="color: #1b1b1b;" pattern="[1-9]{1}[0-9]{2}\s{0,1}[0-9]{3}" name="entry.1034319647">
+		<div class="slc">
+		<select id="Service" required="" style="color: #1b1b1b;" name="entry.1873383887">
+  			<option value="">Select Service</option>
+  			<option value="Car Wash">Car Wash</option>
+  			<option value="Electrical / Circuits">Electrical / Circuits</option>
+  			<option value="Handyman & Carpenter">Handymteran & Carpen</option>
+  			<option value="Housekeeping">Housekeeping</option>
+  			<option value="Landscaping">Landscaping</option>
+  			<option value="Laundry & Dry cleaning">Laundry & Dry cleaning</option>
+  			<option value="Pest Control">Pest Control</option>
+  			<option value="Plumbing">Plumbing</option>
+  			<option value="Rental property management">Rental property management</option>
+  			<option value="Repair retrofits & Renovations">Repair retrofits & Rennovations</option>
+  		</select></div>
+  		<textarea placeholder="Problem in Detail" rows="3" cols="15" style="text-transform: capitalize;" name="entry.109936616"></textarea>
+  		<input type="submit" value="Register">
+	</form></div>
+</body>
+</html>
